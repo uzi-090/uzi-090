@@ -5,7 +5,6 @@
 </picture>
 </p>
 
-<p align="center"><b>Uzair</b> · &gt;Just VibeCoding</p>
 
 
 
