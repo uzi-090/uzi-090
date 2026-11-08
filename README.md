@@ -8,3 +8,9 @@
 </a>
 
 
+
+### 🐍 My Contribution Snake
+
+![Snake animation](https://raw.githubusercontent.com/uzi-090/uzi-090/output/github-contribution-grid-snake.svg)
+
+
