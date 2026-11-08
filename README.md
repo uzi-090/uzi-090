@@ -4,4 +4,13 @@
 </div>
 
 
+<div align="center">
+  <a href="https://discord.com/users/737953430051618839">
+    <img src="./assets/discord-card.gif"
+         width="500"
+         alt="My Animated Discord Profile">
+  </a>
+</div>
+
+
 
