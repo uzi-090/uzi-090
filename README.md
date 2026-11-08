@@ -1,8 +1,6 @@
 
-
-
 <div align="center">
-  <img src="./pixel-room-clean.gif" width="100%" alt="Pixel Art Room">
+  <img src="./pixel-room-uzair.gif" width="100%" alt="Uzair Pixel Room">
 </div>
 
 
