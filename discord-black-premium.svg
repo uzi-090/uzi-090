@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="106" viewBox="0 0 286 106" role="img" aria-labelledby="title desc">
+  <title id="title">Discord</title>
+  <desc id="desc">Black capsule Discord button with a slender, moving white-silver highlight around the border.</desc>
+  <defs>
+    <!-- The fill deliberately stays BLACK, like the reference video. -->
+    <linearGradient id="black" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#08090b"/>
+      <stop offset=".6" stop-color="#050608"/>
+      <stop offset="1" stop-color="#030405"/>
+    </linearGradient>
+    <linearGradient id="baseEdge" x1="0" y1="0" x2=".78" y2="1">
+      <stop offset="0" stop-color="#aeb1ba" stop-opacity=".72"/>
+      <stop offset=".23" stop-color="#e5e5eb" stop-opacity=".53"/>
+      <stop offset=".57" stop-color="#6e717d" stop-opacity=".41"/>
+      <stop offset=".82" stop-color="#737681" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#aaadba" stop-opacity=".68"/>
+    </linearGradient>
+    <linearGradient id="comet" x1="10" y1="10" x2="270" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d4d8e5"/>
+      <stop offset=".40" stop-color="#ffffff"/>
+      <stop offset=".68" stop-color="#bcc4e7"/>
+      <stop offset="1" stop-color="#f5f5ff"/>
+    </linearGradient>
+    <linearGradient id="innerGlint" x1="36" y1="19" x2="231" y2="19" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#fff" stop-opacity=".10"/>
+      <stop offset=".52" stop-color="#fff" stop-opacity=".075"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="outerShadow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="4.6"/>
+    </filter>
+    <filter id="softLight" x="-35%" y="-90%" width="170%" height="280%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.8"/>
+    </filter>
+  </defs>
+
+  <!-- Clean fixed capsule. No scaling or morphing of the rounded rectangle. -->
+  <rect x="16" y="21" width="254" height="70" rx="35" fill="#000" opacity=".75" filter="url(#outerShadow)"/>
+  <rect x="12" y="15" width="262" height="76" rx="38" fill="url(#black)"/>
+  <!-- understated silver border, not a thick neon ring -->
+  <rect x="12" y="15" width="262" height="76" rx="38" fill="none" stroke="url(#baseEdge)" stroke-width="1.7"/>
+  <rect x="15" y="18" width="256" height="70" rx="35" fill="none" stroke="#fff" stroke-width=".75" stroke-opacity=".045"/>
+  <path d="M50 18H228" stroke="url(#innerGlint)" stroke-width="1"/>
+
+  <!-- Moving glint traces the border and is seamless because pathLength=1000 -->
+  <rect x="12" y="15" width="262" height="76" rx="38" pathLength="1000" fill="none"
+        stroke="#a9b2e7" stroke-width="5.5" stroke-linecap="round"
+        stroke-dasharray="95 905" opacity=".42" filter="url(#softLight)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="12" y="15" width="262" height="76" rx="38" pathLength="1000" fill="none"
+        stroke="url(#comet)" stroke-width="2.05" stroke-linecap="round"
+        stroke-dasharray="95 905" opacity=".89">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
+  <!-- trailing, much dimmer reflection, offset by half a circuit -->
+  <rect x="12" y="15" width="262" height="76" rx="38" pathLength="1000" fill="none"
+        stroke="#c9cbd9" stroke-width="1.05" stroke-linecap="round"
+        stroke-dasharray="58 942" stroke-dashoffset="-500" opacity=".27">
+    <animate attributeName="stroke-dashoffset" from="-500" to="-1500" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Real Discord logo, intentionally flat white like the social buttons in the video. -->
+  <g transform="translate(65 35) scale(1.47)" fill="#f5f5f7">
+    <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/>
+  </g>
+  <text x="111" y="64.5" fill="#f6f6f7" font-family="Arial, Helvetica, sans-serif"
+        font-size="27.5" font-weight="700" letter-spacing="-.45">Discord</text>
+</svg>
