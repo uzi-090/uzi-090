@@ -25,11 +25,12 @@ Keep a normal anchor around the image so the entire button opens the profile.
 
 1. Check that the button is still legible against GitHub's light and dark themes.
 2. Verify the icon, border and text stay inside the pill-shaped outline.
-3. Confirm the Discord link opens the correct profile.
-4. Use descriptive `alt` text; images may not load for every reader.
-5. Prefer self-contained SVG animations rather than JavaScript for README images.
-6. Keep the original GIF and SVG in the repository so local image paths keep working.
+3. **Preview after upload:** open your GitHub profile README and check that the uploaded SVG button renders and its border animation plays. If the image is missing, check the `src` filename and path.
+4. Confirm the Discord link opens the correct profile.
+5. Use descriptive `alt` text; images may not load for every reader.
+6. Prefer self-contained SVG animations rather than JavaScript for README images.
+7. Keep the original GIF and SVG in the repository so local image paths keep working.
 
 ## Collaboration review
 
-This guide is being reviewed with a second GitHub contributor. The next improvement should be based on their actual feedback or tested change rather than an assumed co-author credit.
+Thanks to @marinoo-utmsem3 for reviewing the guide and suggesting the post-upload SVG preview check (step 3 above).
