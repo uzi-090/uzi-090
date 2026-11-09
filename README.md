@@ -15,10 +15,4 @@
 
 <div align="center">
 
-### About Me
 
-🐧 Linux Enthusiast · 💻 Exploring OOP · 🎮 Gamer
-
-*Just VibeCoding & Building Cool Stuff*
-
-</div>
