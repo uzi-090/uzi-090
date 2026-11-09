@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="./pixel-room-uzair.gif" width="100%" alt="Uzair Pixel Room">
+  <img src="./pixel-room-uzair.gif" width="100%" alt="Animated pixel-art gaming room banner for Uzair">
 </div>
 
 
